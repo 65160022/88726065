@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Blog</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .centered-text {
+          text-align: center; /* จัดให้ข้อความอยู่ตรงกลาง */
+        }
+        .btn {  
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        margin: 1rem;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            color: rgb(116, 138, 140)
+        }
+        h3 {
+            text-align: center;
+        }
+        body {
+            background-image: url('images/CATBG.png');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+        .colorbox{
+            width: fit-content;
+            background-color: #ffffff;
+            border: solid;
+            border-color: #000000;
+            border-radius: 15px;
+            padding: 10px; 
+
+        }
+        .marquee{
+            direction: right;
+            border: solid;
+            border-color: rgb(0, 0, 0);
+            border-radius: 10px;
+            width: 500px;
+            
+        }
+        .marquee2{
+            direction: right;
+            border: solid;
+            border-color: rgb(0, 0, 0);
+            border-radius: 10px;
+            width: 250px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="centered-text">
+        <center><h1 class="colorbox">My Firstblog</h1></center>
+        <nav>
+            <a href="#">หน้าแรก</a>
+            <a href="#">บทความ</a>
+            <a href="#">เกี่ยวกับ</a>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <article>
+            <header>
+                <div class="centered-text">
+                <h2><marquee class="marquee" behavior="alternate" scrolldelay="200"><u>ปีศาจแมวผจญภัยในโลกแห่งความสะพรึง</u></marquee></h2>
+            </header>
+            <center><img src="images/CATMEME1.jpg " width="300" height="200" alt="รูปภาพประกอบบทความ"></center>
+            <div class="centered-text">
+            <center><p class="colorbox">
+                "เบื่อกับการเป็นแค่แมวบ้าน? 
+                <br>
+                มาสนุกสนานกับการผจญภัยของแมวที่ชื่นชอบ<br>การสำรวจและค้นหาในโลกที่กว้างใหญ่! 
+                
+                แมวผจญภัยชาวน่านน้ำเสียงใหญ่แต่มีความเข้มงวด<br>ในการสำรวจป่าลึกและสามารถตะลุยเทือกเขาได้อย่างไม่ยากลำบาก 
+                <br>
+                เพลิดเพลินกับเรื่องราวที่มุ่งไปในทิศทางที่ไม่เคยสองหรือซ้ำซาก!"
+                <br><br>
+                <a href="article1.html"><button>อ่านต่อคลิกตรงนี้</button></a>
+            </center>
+            </div>
+            </p>
+        </article>
+
+
+        <article>
+            <header>
+                <h2><marquee class="marquee2" behavior="alternate" scrolldelay="280"><u>หนูแฮมสเตอร์นักวิ่ง</u></marquee></h2>
+            </header>
+            <center><img src="images/HAMMEME1.png" width="300" height="400" alt="รูปภาพประกอบบทความ"></center>
+
+                <center></cen><div class="colorbox">
+                    หนูแฮมสเตอร์เป็นสัตว์เลี้ยงขนาดเล็กที่ได้รับความนิยมมาก <br>
+                    พวกมันมีความน่ารัก ฉลาด และขี้เล่น แต่สิ่งที่หลายคนอาจไม่รู้คือ <br>
+                    หนูแฮมสเตอร์เป็นสัตว์ที่ชอบวิ่งมาก พวกมันสามารถวิ่งได้วันละหลายชั่วโมง<br> 
+                    จึงเป็นที่มาของฉายา "หนูแฮมสเตอร์นักวิ่ง"<br><br>
+                    <a href="#"><button>อ่านต่อคลิกตรงนี้</button></a>
+                </div>
+                </center>
+
+        </article>
+    </div>
+    </main>
+    <footer>
+        <p>สงวนลิขสิทธ์ โดย 65160022</p> 
+    </footer>
+</body>
+
+</html>
